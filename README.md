@@ -19,7 +19,7 @@ Unlike traditional template fillers, ProDoc Engine uses an **Agentic Workflow** 
 ## 📺 Video Demo & Walkthrough
 
 🎥 **Technical Deep‑Dive & Live Demo**
-👉 *Add your demo link here before submission*
+👉 *https://drive.google.com/file/d/1M8aps7cb4daGuaejkDbeVuK3my8DQ3kX/view?usp=drivesdk*
 
 ---
 
@@ -95,51 +95,6 @@ graph LR
 
 ---
 
-### 1️⃣ Backend Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/<your-username>/prodoc-engine.git
-cd prodoc-engine/backend
-
-# Create virtual environment
-python -m venv venv
-
-# Activate (Windows)
-venv\Scripts\activate
-
-# Activate (Mac/Linux)
-source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Environment variables
-# Create a .env file and add:
-# HF_TOKEN=your_huggingface_token
-
-# Run the server
-uvicorn server:app --reload
-```
-
----
-
-### 2️⃣ Frontend Setup
-
-```bash
-cd ../frontend
-
-# Install dependencies
-npm install
-
-# Start the app
-npm start
-```
-
-📍 The application will be available at:
-**[http://localhost:3000](http://localhost:3000)**
-
----
 
 ## 🔮 Strategic Roadmap (Scalability Plan)
 
