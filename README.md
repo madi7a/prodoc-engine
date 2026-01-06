@@ -27,7 +27,7 @@ Unlike traditional template fillers, ProDoc Engine uses an **Agentic Workflow** 
 
 The platform follows a **decoupled microservices architecture**, ensuring that AI reasoning and document rendering remain independently scalable.
 
-```mermaid
+```
 graph LR
     A[React Frontend] -- JSON Request --> B[FastAPI Backend]
     B -- Prompt Engineering --> C[AI Agent (Qwen 2.5)]
