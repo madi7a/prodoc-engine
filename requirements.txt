@@ -1,0 +1,6 @@
+weasyprint
+jinja2
+huggingface_hub
+python-dotenv
+fastapi 
+uvicorn

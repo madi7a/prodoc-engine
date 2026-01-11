@@ -1,0 +1,101 @@
+body {
+  background-color: #f4f7f6;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  color: #2c3e50;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.header h1 span {
+  color: #2980b9; /* Corporate Blue */
+}
+
+.header p {
+  color: #7f8c8d;
+  font-size: 1.1rem;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 15px;
+  border: 2px solid #ecf0f1;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box; /* Important for padding */
+  font-family: inherit;
+  resize: vertical;
+}
+
+textarea:focus {
+  border-color: #2980b9;
+  outline: none;
+}
+
+.actions {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.generate-btn {
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.generate-btn:hover {
+  background-color: #21618c;
+}
+
+.generate-btn.loading {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.error-msg {
+  color: #c0392b;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.info-box {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
