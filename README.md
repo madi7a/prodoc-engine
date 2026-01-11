@@ -29,12 +29,13 @@ The platform follows a **decoupled microservices architecture**, ensuring that A
 
 ```mermaid
 graph LR
-    A[React Frontend] -- JSON Request --> B[FastAPI Backend]
-    B -- Prompt Engineering --> C[AI Agent (Qwen 2.5)]
-    C -- Structured JSON --> B
-    B -- Data Injection --> D[Jinja2 Templates]
-    D -- HTML + CSS Paged Media --> E[WeasyPrint Engine]
-    E -- PDF Binary --> A
+    A["React Frontend"] -->|"JSON Request"| B["FastAPI Backend"]
+    B -->|"Prompt Engineering"| C["AI Agent - Qwen2_5"]
+    C -->|"Structured JSON"| B
+    B -->|"Data Injection"| D["Jinja2 Templates"]
+    D -->|"HTML + CSS Paged Media"| E["WeasyPrint Engine"]
+    E -->|"PDF Binary"| A
+
 ```
 
 ### Key Architectural Decisions
